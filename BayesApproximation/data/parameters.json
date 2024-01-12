@@ -1,0 +1,33 @@
+{
+    "env": {
+        "N_rx": 32,
+        "N_tx": 1,
+        "tau": 14,
+        "N": 128,
+        "angles": [
+            -60,
+            60
+        ],
+        "pilots_power": 0,
+        "seed": 73
+    },
+    "training": {
+        "N_dataset": 100000,
+        "batch_size": 1024,
+        "N_epochs": 50,
+        "N_hidden": [
+            512,
+            512,
+            512
+        ],
+        "activation_fc": "th.nn.Tanh",
+        "loss_fc": "th.nn.NLLLoss",
+        "learning_rate": 0.1,
+        "betta": [
+            0.9,
+            0.999
+        ],
+        "eps": 1e-08,
+        "validation_split": 0.2
+    }
+}

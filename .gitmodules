@@ -1,0 +1,3 @@
+[submodule "QuaDRiGa"]
+	path = QuaDRiGa
+	url = https://github.com/fraunhoferhhi/QuaDRiGa
